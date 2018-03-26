@@ -5,3 +5,4 @@
 *.obj
 *.lst
 *.a
+lib/libgdeo.so

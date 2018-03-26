@@ -1,6 +1,5 @@
 module gdeo.all;
 
-
 public import gdeo.returncontroller;
 public import gdeo.mainscreencontroller;
 

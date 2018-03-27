@@ -128,12 +128,12 @@ _sections_unfolded = [ "Rect" ]
 
 script = ExtResource( 1 )
 
-[connection signal="pressed" from="MainPanel/ExampleOneButton" to="MainPanel/MainScreenController" method="_on_ExampleOneButton_pressed"]
+[connection signal="pressed" from="MainPanel/ExampleOneButton" to="MainPanel/MainScreenController" method="_on_example_one_button_pressed"]
 
-[connection signal="pressed" from="MainPanel/ExampleTwoButton" to="MainPanel/MainScreenController" method="onExampleTwoButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleTwoButton" to="MainPanel/MainScreenController" method="_on_example_two_button_pressed"]
 
-[connection signal="pressed" from="MainPanel/ExampleThreeButton" to="MainPanel/MainScreenController" method="onExampleThreeButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleThreeButton" to="MainPanel/MainScreenController" method="_on_example_three_button_pressed"]
 
-[connection signal="pressed" from="MainPanel/ExampleFourButton" to="MainPanel/MainScreenController" method="onExampleFourButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleFourButton" to="MainPanel/MainScreenController" method="_on_example_four_button_pressed"]
 
 

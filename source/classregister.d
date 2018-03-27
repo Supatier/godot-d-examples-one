@@ -7,6 +7,6 @@ import gdeo.all;
 
 import std.stdio;
 
-mixin GodotNativeLibrary!("classregister", MainScreenController, ReturnController,
+mixin GodotNativeLibrary!("gdtest", MainScreenController, ReturnController,
 
                 LifeCycle, InputHandling, GameObjectFactory, KinematicController, InputHandler);

@@ -1,12 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://lib/d_gdnativelibrary.tres" type="GDNativeLibrary" id=1]
-
-[sub_resource type="NativeScript" id=1]
-
-resource_name = "MainScreenController"
-class_name = "MainScreenController"
-library = ExtResource( 1 )
+[ext_resource path="res://lib/main_scene.tres.gdns" type="Script" id=1]
 
 [node name="MainScreen" type="Node" index="0"]
 
@@ -130,16 +124,16 @@ flat = false
 align = 1
 _sections_unfolded = [ "Rect" ]
 
-[node name="MainScrenController" type="Node" parent="MainPanel" index="4"]
+[node name="MainScreenController" type="Node" parent="MainPanel" index="4"]
 
-script = SubResource( 1 )
+script = ExtResource( 1 )
 
-[connection signal="pressed" from="MainPanel/ExampleOneButton" to="MainPanel/MainScrenController" method="onExampleOneButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleOneButton" to="MainPanel/MainScreenController" method="_on_ExampleOneButton_pressed"]
 
-[connection signal="pressed" from="MainPanel/ExampleTwoButton" to="MainPanel/MainScrenController" method="onExampleTwoButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleTwoButton" to="MainPanel/MainScreenController" method="onExampleTwoButtonPressed"]
 
-[connection signal="pressed" from="MainPanel/ExampleThreeButton" to="MainPanel/MainScrenController" method="onExampleThreeButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleThreeButton" to="MainPanel/MainScreenController" method="onExampleThreeButtonPressed"]
 
-[connection signal="pressed" from="MainPanel/ExampleFourButton" to="MainPanel/MainScrenController" method="onExampleFourButtonPressed"]
+[connection signal="pressed" from="MainPanel/ExampleFourButton" to="MainPanel/MainScreenController" method="onExampleFourButtonPressed"]
 
 

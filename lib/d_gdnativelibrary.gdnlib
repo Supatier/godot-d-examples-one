@@ -1,0 +1,24 @@
+[entry]
+
+Android.armeabi-v7a="res://lib/libgdeo.so"
+Android.arm64-v8a="res://lib/libgdeo.so"
+Android.x86="res://lib/libgdeo.so"
+Android.x86_64="res://lib/libgdeo.so"
+X11.64="res://lib/libgdeo.so"
+X11.32="res://lib/libgdeo.so"
+
+[dependencies]
+
+Android.armeabi-v7a=[  ]
+Android.arm64-v8a=[  ]
+Android.x86=[  ]
+Android.x86_64=[  ]
+X11.64=[  ]
+X11.32=[  ]
+
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="gdtest"
+reloadable=true
